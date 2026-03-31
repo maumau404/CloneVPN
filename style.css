@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    height: 50px;
+    background-color: rgb(47, 51, 53);
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: end;
+}
+
+h1 {
+color: rgb(211, 197, 9);
+}
+
+p{
+    color: azure;
+}
+
+.meio {
+    height: 450px;
+    background-color: rgb(14, 13, 13);
+}
+
+.meio h1 {
+    padding-top: 70px;
+    padding-left: 50px;
+    font-size: 45px;
+}
+
+.meio p {
+    font-size: 15px;
+    padding-left: 50px;
+    padding-top: 15px;
+}
+
+.texto_p {
+    padding-top: 30px;
+}
