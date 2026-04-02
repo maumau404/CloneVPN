@@ -99,8 +99,14 @@ p{
 }
 
 .texto_p {
+    align-items: center;
     padding-top: 20px;
+}
 
+.texto_p p{
+    display: flex;
+    align-items: center;
+    gap: 12px;
 }
 
 
@@ -113,16 +119,19 @@ p{
 }
 
 footer {
-    height: 115px;
+    display: flex;
+    height: 465px;
     background-color: rgb(14, 13, 13);
+    flex-direction: column;
+    justify-content: end;
+    padding-bottom: 20px;
     /* display: flex;
     flex-direction: row;
-    justify-content: space-around; */
-    
+    justify-content: space-around; */  
 }
 
-footer div{
-    display: flex;
+.rodape {
+    display: flex; 
     flex-direction: row;
     justify-content: space-around;
     padding-top: 40px;
