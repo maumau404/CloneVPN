@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.body {
+    background-color: rgb(15, 15, 15);
+    height: 100%;
+    margin: 0;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    width: 100vw;
+    background-color: rgb(15, 15, 15);
+    padding-top: 10px;
+    gap: 60px;
+
+}
+
+.preco {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 80px;
+    border-radius: 30px;
+    color: rgb(201, 198, 14);
+    background-color: rgb(36, 33, 33);
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    height: 40px;
+    background-color: rgb(15, 15, 15);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: white;
+}
+
+.home p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.rodape {
+    /* display: flex;
+    flex-grow: 1;
+    background-color: rgb(15, 15, 15); */
+    display: grid;
+    /* Mudamos de flex para grid */
+    /* flex-grow: 1; */
+    /* Mantém o crescimento para ocupar o resto da tela */
+
+    /* Define 4 colunas de tamanhos iguais */
+    grid-template-columns: repeat(4, 1fr);
+
+    /* O GAP vai aqui no PAI! */
+    gap: 15px;
+    /* padding-top: 15px; */
+    background-color: rgb(15, 15, 15);
+
+    /* Centraliza os itens dentro do grid */
+    /* justify-items: center; */
+    align-items: end;
+    
+    padding: 20px 10% 0px 10%;
+}
+
+.planos1 {
+    /* display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    height: 340px;
+    width: 240px;
+    column-gap: 30px;
+    background-color: brown;
+    border-radius: 20px; */
+    height: 320px;
+    width: 100%;
+    /* Deixe o grid controlar a largura ou use um max-width */
+    /*  max-width: 340px; */
+    border-radius: 28px;
+    color: white;
+    display: grid;
+    padding-left: 25px;
+    /* padding-bottom: 30px; */
+    /* background-color: brown; */
+    background-image: url(assets/Frame\ 5961.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.texto_um {
+    display: grid;
+    column-gap: 20px;
+    align-items: end;
+    padding-top: 70px;
+}
+.valor {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.save p {
+    padding-top: 35px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.botao_preco{
+    display: grid;
+    align-items: end;
+    padding-bottom: 25px;
+
+}
+.botao_preco button {
+    display: grid;
+    align-items: center;
+    height: 30px;
+    width: 120px;
+    border-radius: 25px;
+    color: black;
+    border: none;
+    background-color: rgb(248, 224, 2);
+
+}
+.botao_preco button:hover {
+    cursor: pointer;
+    background-color: yellowgreen;
+}
+
+.planos2 {
+    display: grid;
+    height: 230px;
+    width: 100%;
+    border-radius: 20px;
+    color: white;
+    padding-left: 25px;
+    background-color: rgb(20, 19, 19);
+    align-items: end;
+    
+    
+}
+
+.planos3 {
+    display: grid;
+    height: 280px;
+    width: 100%;
+    border-radius: 20px;
+    color: white;
+    padding-left: 25px;
+    background-color: rgb(20, 19, 19);
+    align-items: end;
+}
+
+.planos4 {
+    height: 140px;
+    width: 100%;
+    border-radius: 20px;
+    color: white;
+    padding-left: 25px;
+    background-color: rgb(20, 19, 19);
+}
+
+.save_dois{
+    display: grid;
+    font-size: 25px;
+    font-weight: bolder;
+    padding-bottom: 50px;
+    
+}
+
+.texto_dois {
+    display: grid;
+    flex-direction: column;
+    row-gap: 10px;
+    padding-bottom: 20px;
+
+}
+
+.valor_dois{
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.save_tres{
+    display: grid;
+    font-size: 25px;
+    font-weight: bolder;
+    padding-bottom: 90px;
+}
+
+.texto_tres{
+    display: grid;
+    align-items: end;
+    row-gap: 10px;
+    padding-bottom: 20px;
+}
+
+.valor_tres{
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.texto_quatro{
+    display: grid;
+    padding-top: 40px;
+    row-gap: 10px;
+}
+
+.valor_quatro{
+    font-size: 40px;
+    font-weight: bolder;
+}
