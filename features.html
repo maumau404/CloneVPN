@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="assets/icons8-vpn-32.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="features.css">
+    <title>Features</title>
+</head>
+
+<body>
+
+    <nav>
+        <div id="nav-placeholder"></div>
+    </nav>
+
+    <section class="home_features">
+
+        <div class="textos">
+            <h1>Secure you online <br>privacy with exciting features</h1>
+            <p>Guard your online presence from anywhere, every day. <br>
+                Safely explore apps, websites, and entertainment.</p>
+        </div>
+
+        <div class="grid_features">
+
+            <div class="cards">
+                <img src="assets/Features/1.png" alt="">
+                <h2>Secure encryption</h2>
+                <p>VPN encryption is a process that scrambles your<br>online data so that no unauthorized party can view it<br>
+                    or use it in any way. This way, you not only protect<br>your information but also conceal your
+                    identity.</p>
+            </div>
+
+            <div class="cards">
+                <img src="assets/Features/2.png" alt="">
+                <h2>Split tunneling</h2>
+                <p>VPN encryption is a process that scrambles your<br>online data so that no unauthorized party can view it<br>
+                    or use it in any way. This way, you not only protect<br>your information but also conceal your
+                    identity.</p>
+            </div>
+
+            <div class="cards">
+                <img src="assets/Features/3.png" alt="">
+                <h2> All OS Supoorted</h2>
+                <p>VPN encryption is a process that scrambles your<br>online data so that no unauthorized party can view it<br>
+                    or use it in any way. This way, you not only protect<br>your information but also conceal your
+                    identity.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <script>
+        fetch('navbar.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('nav-placeholder').innerHTML = data;
+            })
+            .catch(error => console.error('Erro ao carregar a navbar:', error));
+    </script>
+
+</body>
+
+</html>

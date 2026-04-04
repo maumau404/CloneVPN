@@ -10,7 +10,7 @@ body {
     width: 100%;
     overflow: hidden;
     font-family: sans-serif;
-    background-color: transparent;  
+    background-color: transparent;
 }
 
 .navbar {
@@ -71,7 +71,13 @@ body {
     width: 90px;
     border-radius: 30px;
     cursor: pointer;
+
+    &:hover{
+        background-color: yellowgreen;
+        transform: all 0.3 ease;
+    }
 }
+
 
 .profile {
     display: flex;
@@ -195,6 +201,11 @@ footer img{
     background-color: black;
     border: 1px solid yellow;
     cursor: pointer;
+
+    &:hover{
+        background-color: rgb(29, 29, 27);
+        transform: all 0.3 ease;
+    }
 }
 
 .botao_dois {
@@ -206,5 +217,10 @@ footer img{
     background-color: rgb(241, 226, 7);
     border: 1px solid rgb(3, 3, 3);
     cursor: pointer;
+
+    &:hover{
+        background-color: yellowgreen;
+        transform: all 0.3 ease;
+    }
 }
 

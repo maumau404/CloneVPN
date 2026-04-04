@@ -4,15 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="assets/icons8-vpn-32.png">
     <link rel="stylesheet" href="style.css">
     <title>VPN website</title>
 </head>
 
 <body>
 
-    <nav class="navbar">
+    <nav>
+        <div id="nav-placeholder"></div>
+    </nav>
+    <!-- <nav class="navbar">
 
-        <img src="assets/logo alternativa.svg" alt="">
+        <img src="assets/logo.png" alt="">
 
         <div class="menu">
             <ul>
@@ -26,7 +30,7 @@
                 <li class="profile"> <img src="assets/profile.png" alt="">Login</li>
             </ul>
         </div>
-    </nav>
+    </nav> -->
 
     <section class="meio">
 
@@ -64,6 +68,14 @@
         </div>
     </footer>
 
+    <script>
+        fetch('navbar.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('nav-placeholder').innerHTML = data;
+            })
+            .catch(error => console.error('Erro ao carregar a navbar:', error));
+    </script>
 </body>
 
 </html>
