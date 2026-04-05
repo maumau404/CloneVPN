@@ -172,7 +172,7 @@ p{
 
 footer {
     display: flex;
-    height: 115px;
+    height: 185px;
     background-color: rgb(17, 16, 16);
     flex-direction: column;
     justify-content: end;

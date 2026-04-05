@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="assets/icons8-vpn-32.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="apps.css">
+    <title>Apps</title>
+</head>
+
+<body>
+
+    <nav>
+        <div id="nav-placeholder"></div>
+    </nav>
+
+    <main>
+
+        <div class="titulo_apps">
+
+            <h1>Download Octo Vault</h1>
+
+        </div>
+
+        <div class="container_apps">
+
+            <div class="card_app">
+                <img src="assets/apps/android.png" alt="">
+                <p>Android</p>
+            </div>
+
+            <div class="card_app">
+                <img src="assets/apps/apple.png" alt="">
+                <p>IOS</p>
+            </div>
+
+            <div class="card_app">
+                <img src="assets/apps/macs.png" alt="">
+                <p>Mac OS</p>
+            </div>
+
+            <div class="card_app">
+                <img src="assets/apps/windows.png" alt="">
+                <p>Windows</p>
+            </div>
+
+            <div class="card_app">
+                <img src="assets/apps/apk.png" alt="">
+                <p>APK</p>
+            </div>
+        </div>
+
+    </main>
+
+
+    <script>
+        fetch('navbar.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('nav-placeholder').innerHTML = data;
+            })
+            .catch(error => console.error('Erro ao carregar a navbar:', error));
+    </script>
+</body>
+
+</html>

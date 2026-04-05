@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    background-color: rgb(15, 15, 15);
+    
+}
+
+main {
+    min-height: calc(100vh - 35px);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.titulo_apps {
+    text-align: center;
+    padding-top: 15vh;
+}
+
+.container_apps {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    gap: 15px;
+    padding: 15vh 10%;
+
+}
+
+.card_app {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    height: 50vh;
+    background-color: rgb(49, 47, 47);
+    border-radius: 15px;
+    
+
+    p {
+        margin: 0;
+        font-weight: bold;
+    }
+
+    img {
+        width: 60px;
+        height: auto;
+        padding-top: 40px;
+    }
+
+}
