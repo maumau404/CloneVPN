@@ -69,50 +69,22 @@ h1 {
 }
 
 .rodape {
-    /* display: flex;
-    flex-grow: 1;
-    background-color: rgb(15, 15, 15); */
     display: grid;
     flex-grow: 1;
-    /* Mudamos de flex para grid */
-    /* flex-grow: 1; */
-    /* Mantém o crescimento para ocupar o resto da tela */
-
-    /* Define 4 colunas de tamanhos iguais */
     grid-template-columns: repeat(4, 1fr);
-
-    /* O GAP vai aqui no PAI! */
     gap: 15px;
-    /* padding-top: 15px; */
     background-color: rgb(15, 15, 15);
-
-    /* Centraliza os itens dentro do grid */
-    /* justify-items: center; */
     align-items: end;
-    
     padding: 20px 10% 35px 10%;
 }
 
 .planos1 {
-    /* display: grid;
-    justify-content: center;
-    align-items: center;
-    grid-template-columns: repeat(3, 1fr);
-    height: 340px;
-    width: 240px;
-    column-gap: 30px;
-    background-color: brown;
-    border-radius: 20px; */
     height: 320px;
     width: 100%;
-    /* Deixe o grid controlar a largura ou use um max-width */
-    /*  max-width: 340px; */
     border-radius: 28px;
     color: white;
     display: grid;
     padding-left: 25px;
-    /* padding-bottom: 30px; */
-    /* background-color: brown; */
     background-image: url(assets/Frame\ 5961.png);
     background-size: cover;
     background-position: center;
