@@ -19,7 +19,6 @@ body {
     align-items: center;
     height: 35px;
     background-color: rgb(47, 51, 53);
-
     /* position: relative; */
     z-index: 9999;
 }
@@ -90,7 +89,7 @@ p{
 }
 
 .meio {
-    height: 400px;
+    height: 57vh;
     /* background-color: rgb(14, 13, 13); */ 
     position: relative;
     background-color: rgb(14, 13, 13);
@@ -104,9 +103,8 @@ p{
 }
 
 
-
 .meio h1 {
-    padding-top: 50px;
+    padding-top: 10rem;
     padding-left: 50px;
     font-size: 50px;
     color: white;
@@ -162,7 +160,7 @@ p{
     display: flex;
     gap: 30px;
     background-color: rgb(17, 16, 16);
-    height: 50px;
+    height: 10vh;
     padding-left: 50px;
     padding-top: 5px;
     cursor: pointer;
@@ -172,7 +170,7 @@ p{
 
 footer {
     display: flex;
-    height: 185px;
+    height: 30vh;
     background-color: rgb(17, 16, 16);
     flex-direction: column;
     justify-content: end;
@@ -184,7 +182,7 @@ footer {
     display: flex; 
     flex-direction: row;
     justify-content: space-around;
-    padding-top: 40px;
+    padding-bottom: 30px;
 }
 
 footer img{
