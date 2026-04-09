@@ -8,7 +8,8 @@
 body {
     min-height: 100vh;
     width: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: scroll;
     font-family: sans-serif;
     background-color: transparent;
 }
@@ -169,7 +170,7 @@ p{
 
 }
 
-footer {
+.apss_home {
     display: flex;
     height: 30vh;
     background-color: rgb(17, 16, 16);
@@ -186,7 +187,7 @@ footer {
     padding-bottom: 30px;
 }
 
-footer img{
+.apss_home img{
     height: 60px;
     width: auto;
 }
@@ -222,4 +223,67 @@ footer img{
         transform: all 0.3 ease;
     }
 }
+
+.home_landingdois{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+    background-color: rgb(17, 16, 16);
+}
+
+.cabecalho_landingdois{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    height: 30vh;
+    text-align: center;
+
+    p{
+        display: flex;
+        background-color: #222221;
+        height: 30px;
+        width: 150px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
+        color: #ffe601;
+    }
+
+    h1{
+        color: white;
+    }
+}
+
+.grid_landingdois{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    height: 70vh;
+    justify-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+       
+}
+
+.cards_landingdois{
+    display: flex;
+    flex-direction: column;
+    height: 35vh;
+    align-items: start;
+    gap: 10px;
+    padding-top: 20px;
+    color: white;
+    
+    
+
+    p{
+        font-size: 10px;
+        padding-top: 10px;
+        
+    }
+}
+
 
